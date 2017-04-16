@@ -1,0 +1,125 @@
+#splash_jumbo {
+  text-align: center;
+  background-image: url(sea_sunset_boat-wide.jpg);
+  color: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  color: #e5e5e5;
+  text-shadow: 4px 4px 4px #303030;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+#profilepic {
+  border-radius: 100%;
+  border: 3px solid #469fa8;
+  margin-right: 20px;
+}
+
+h2 {
+  display: inline-block;
+}
+
+#skills_container, #contact_container, #info_container {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding: 100px;
+  width: 100%;
+}
+
+#skills_container {
+  background: #469fa8;
+  color: white;
+  padding: 200px 100px;
+  text-align: center;
+}
+
+.para {
+  font-size: 18px;
+  list-style-type: circle;
+}
+
+.navbar-toggle {
+  margin: 10px;
+}
+
+.icon, .icon2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #469fa8;
+}
+
+.icon {
+  color: white;
+  cursor: pointer;
+}
+
+.para {
+  font-weight: 600;
+  margin: 10px 0px 30px 0px;
+  font-size: 18px;
+}
+
+.promo_para {
+  font-size: 20px;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.icon_img {
+  height: 80px;
+}
+
+#contact_ul {
+  text-align: left;
+  font-size: 20px;
+}
+
+.contact_li {
+  list-style-type: circle;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info_para {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#info_container {
+  text-align: left;
+}
+
+#navbar_brand {
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #skills_container, #contact_container, #info_container {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #skills_container {
+    text-align: center;
+    padding: 100px 10px;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+
+  #info_para {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .promo_para {
+    font-size: 18px;
+  }
+}
